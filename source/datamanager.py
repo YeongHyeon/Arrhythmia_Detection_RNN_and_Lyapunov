@@ -107,16 +107,6 @@ class DataSet(object):
             data_tmp = data_bunch.reshape((1, sequence_length, self.data_dim))
             data_bat = np.append(data_bat, data_tmp, axis=0)
 
-
-            if(cnt_ansymb > 0):
-                try: os.mkdir("%s/anomalyset" %(self.data_path))
-                except: pass
-                np.save("%s/anomalyset/%s_%d_an-%d_seq-%d" %(self.data_path, v_key, index_bank, cnt_ansymb, sequence_length), np.nan_to_num(data_bat))
-            else:
-                try: os.mkdir("%s/normalset" %(self.data_path))
-                except: pass
-                np.save("%s/normalset/%s_%d_an-%d_seq-%d" %(self.data_path, v_key, index_bank, cnt_ansymb, sequence_length), np.nan_to_num(data_bat))
-
             self.didx_tot = (index_bank + 1) % (self.am_each - sequence_length + 1)
 
             return np.nan_to_num(data_bat), list_seqname # replace nan to zero using np.nan_to_num
