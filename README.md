@@ -1,8 +1,8 @@
-Arrhythmia detection in electrocardiogram based on recurrent neural network encoder–decoder with Lyapunov exponent
+Arrhythmia Detection in Electrocardiogram based on Recurrent Neural Network Encoder–Decoder with Lyapunov Exponent
 =====
 
 ## Introduction
-This repository provides the source code of the paper <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/tee.22927">"Arrhythmia detection in electrocardiogram based on recurrent neural network encoder–decoder with Lyapunov exponent"</a>.
+This repository provides the source code of the paper <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/tee.22927">"Arrhythmia Detection in Electrocardiogram based on Recurrent Neural Network Encoder–Decoder with Lyapunov Exponent"</a>.
 
 <div align="center">
   <img src="./figures/model.png" width="300">  
