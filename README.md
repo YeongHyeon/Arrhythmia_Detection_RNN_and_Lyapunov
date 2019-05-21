@@ -1,4 +1,4 @@
-Arrhythmia Detection in Electrocardiogram based on Recurrent Neural Network Encoder–Decoder with Lyapunov Exponent
+Arrhythmia Detection in ECG based on RNN Encoder–Decoder with Lyapunov Exponent
 =====
 
 ## Introduction
