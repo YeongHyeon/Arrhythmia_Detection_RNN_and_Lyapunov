@@ -5,7 +5,7 @@ Arrhythmia Detection in ECG based on RNN Encoder–Decoder with Lyapunov Exponen
 This repository provides the source code of the paper <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/tee.22927">"Arrhythmia Detection in Electrocardiogram based on Recurrent Neural Network Encoder–Decoder with Lyapunov Exponent"</a>.
 
 <div align="center">
-  <img src="./figures/lyapunov.png" width="300">  
+  <img src="./figures/lyapunov.png" width="600">  
   <p>The sample raw and preprocessed data. The sampling rate of raw ECG is 360 Hz. We extract 180-dimensional Lyapunov spectrum (LS) from the 360-dimensional ECG signal.</p>
 </div>
 
@@ -15,7 +15,7 @@ This repository provides the source code of the paper <a href="https://onlinelib
 </div>
 
 <div align="center">
-  <img src="./figures/arrhythmia-detection.png" width="300">  
+  <img src="./figures/arrhythmia-detection.png" width="600">  
   <p>Comparison of the effect of using the Lyapunov exponent. Label '100' and '103' are normal (healthy) and mixed (healthy and arrhythmia). Two subfigures are shown, Euclidean distance (restoration error) of using raw ECG and Lyapunov exponent, respectively. In the right subfigure, the data that have a higher value than others contain arrhythmia.</p>
 </div>
 
